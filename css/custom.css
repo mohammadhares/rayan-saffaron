@@ -1,0 +1,42 @@
+.white,
+.arrow_right,
+.arrow_left {
+  color: #f9f9f9 !important;
+}
+
+.primary-btn {
+  background-color: blueviolet;
+}
+
+.primary-btn:hover {
+  background-color: rgba(144, 26, 254, 0.501);
+}
+
+.categories {
+  background: #ef32d9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #89fffd,
+    #ef32d9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #89fffd,
+    #ef32d9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.header__logo img{
+    position: absolute;
+    width: 250px;
+    height: 70px;
+    margin-top: -45px;
+}
+
+.instagram__pic div{
+    border: 1px solid #ef32d9;
+}
+
+.team__item img{
+  height: 400px;
+}
