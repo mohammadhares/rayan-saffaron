@@ -40,3 +40,41 @@
 .team__item img{
   height: 400px;
 }
+
+footer, .header__top {
+  background: #ef32d9 !important; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #89fffd,
+    #ef32d9
+  ) !important; /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e43ffa,
+    #620357
+  ) !important; 
+}
+
+.breadcrumb-option , .testimonial {
+  background-color: #f0d2fe !important;
+}
+
+.country_list .active{
+  background: #ef32d9 !important; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #89fffd,
+    #ef32d9
+  ) !important; /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e43ffa,
+    #620357
+  ) !important; 
+}
+
+.country_list .list-group-item{
+  cursor: pointer;
+  background-color: #a703f419;
+  font-weight: bold;
+}
