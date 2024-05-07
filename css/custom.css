@@ -40,6 +40,10 @@
   height: 400px;
 }
 
+footer *{
+  color: #000 !important;
+}
+
 footer, .header__top {
   background: #ef32d9 !important; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -49,8 +53,8 @@ footer, .header__top {
   ) !important; /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #811090,
-    #5d0052
+    #e75dfa,
+    #5d0954
   ) !important; 
 }
 
